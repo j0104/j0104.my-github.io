@@ -1,0 +1,35 @@
+.inhalt {
+  margin-top: 7rem;
+}
+
+.profilbild-image {
+  border-radius: 2000px;
+  margin-bottom: 1.5rem;
+}
+
+.artikel-metadata {
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.ersterartikel {
+  margin-top: 7rem;
+}
+
+.artikel {
+  margin-bottom: 2rem;
+
+}
+.artikelbild {
+  margin-top: 2.5rem;
+
+}
+
+
+.artikel-image {
+  margin-bottom: 1.5rem;
+}
+
+section {
+  margin-top: 2rem;
+}

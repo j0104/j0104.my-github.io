@@ -1,0 +1,113 @@
+<!DOCTYPE html>  
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+      
+    <!--  Dokumentkompatibilitätsmodus für IE-->  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Meine erste eigene Website</title>
+
+    <!-- Bootstrap Haupt-CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Bootstrap Theme-CSS -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+      
+    <!-- Eigenes CSS -->  
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        
+      <div class="container">
+          
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <!-- screen reader haben Probleme, wenn nicht jede Eingabe ein Label hat -->
+            <span class="sr-only">Navigation ein/ausblenden</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Mein Blog</a>
+        </div>
+          
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Startseite</a></li>
+            <li><a href="ueber-mich.html">Über mich</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <article class="ersterartikel artikel">
+            <div class="row">
+
+              <div class="col-md-4">
+                <img src="images/klettern.jpg" alt="Klettern an der Tante - Sächs. Schweiz"
+                  class="artikelbild img-responsive">
+              </div>
+              <div class="col-md-8">
+                <h1><a href="artikel-kletter-tipps.html">Kletter-Tipps</a></h1>
+                <p class="lead">
+                  Wer klettern geht, braucht nicht nur Wissen, Erfahrung und Können,
+                  sondern auch Tipps, die ihm Hinweise über das Klettergebiet, die notwendige Ausrüstung,
+                  die Felsbeschaffenheit oder Rast- und Biwakmöglichkeiten geben.
+                </p>
+
+              </div>
+ 
+            </div>
+
+          </article>
+        </div>
+      </div> 
+      
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <article class="artikel">
+            <div class="row">
+
+              <div class="col-md-4">
+                <img src="images/potsdam.jpg" alt="Potsdam - Schloss Sanssouci"
+                  class="artikelbild img-responsive">
+              </div>
+              <div class="col-md-8">
+                <h1><a href="artikel-unsere-reise-nach-potsdam.html">Reise nach Potsdam</a></h1>
+                <p class="lead">
+                  Die SeniorenUniversität der B-TU führte eine Exkursion in Potsdams Gärten durch. Sie gehören zum UNESCO-Weltkulturerbe.
+                  Schloß Cecilienhof war leider verschlossen.
+                </p>
+
+              </div>
+ 
+            </div>
+
+          </article>
+        </div>
+      </div>  
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap Haupt-JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>     
